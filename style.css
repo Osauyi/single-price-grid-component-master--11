@@ -1,0 +1,123 @@
+:root {
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%)
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Karla', sans-serif;
+  background-color: var(--Light-Gray);
+  min-height: 100vh;
+  text-align: left;
+  line-height: 1.5rem;
+  background-color: hsl(218, 22%, 67%, 0.4);
+}
+
+h1 {
+  color: var(--Cyan);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--Light-Gray);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 2rem;
+  color: var(--Light-Gray);
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.89rem;
+}
+
+main {
+  max-width: 34.125rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.container p {
+  color: hsl(204, 43%, 93%, 0.8);
+}
+
+section {
+  padding: 1.9rem;
+}
+
+.mainBox {
+  background-color: var(--Light-Gray);
+  color: var(--Grayish-Blue);
+  border-radius: 8px 8px 0px 0px;
+  padding-top: 10px;
+  padding-right: 2.9rem;
+
+}
+
+.pricingBox {
+  background-color: var(--Cyan);
+  color: var(--Light-Gray);
+  border-radius: 0px 0px 0px 8px;
+  padding-top: 1.25rem;
+  padding-bottom: 0;
+}
+
+
+.questionBox {
+  background-color: hsl(179, 62%, 43%, 0.85);
+  color: var(--Light-Gray);
+  padding-right: 13px;
+  border-radius: 0px 0px 8px 0px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.875rem;
+}
+
+.questionBox p {
+  font-size: 0.75rem;
+  word-break: break-word;
+  max-width: 9.75rem;
+  line-height: 1.15rem;
+  padding-right: 4.1rem;
+  margin-bottom: 0;
+}
+
+.SecondHead {
+  color: var(--Bright-Yellow);
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+button {
+  padding: 0.8rem;
+  width: 100%;
+  border-radius: 0.3125rem;
+  background-color: var(--Bright-Yellow);
+  border: none;
+  font-family: 'Karla', sans-serif;
+  color: var(--Light-Gray);
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+.pricing h3,
+.pricing p {
+  display: inline;
+  vertical-align: middle;
+}
+
+.pricing p {
+  margin-left: 8px;
+  color: hsl(204, 43%, 93%, 0.6);
+}
