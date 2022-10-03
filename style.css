@@ -58,7 +58,7 @@ section {
 }
 
 .mainBox {
-  background-color: var(--Light-Gray);
+  background-color: #fff;
   color: var(--Grayish-Blue);
   border-radius: 8px 8px 0px 0px;
   padding-top: 10px;
